@@ -24,6 +24,7 @@ class NavDrawer extends StatelessWidget {
                       appTitle,
                       style: cinemaHeaderStyle,
                       overflow: TextOverflow.ellipsis,
+                      fontWeight: FontWeight.normal,
                     ),
                   ),
                   IconButton(
@@ -53,7 +54,7 @@ class DrawerTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      title: Text(title, style: const TextStyle(color: cinemaFontWhite)),
+      title: Text(title, style: const TextStyle(color: cinemaFontWhite), fontWeight: FontWeight.normal),
       onTap: () {
         Navigator.pop(context);
         if (route != null) {
