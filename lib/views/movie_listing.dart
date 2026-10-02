@@ -18,8 +18,11 @@ class MovieListing extends StatelessWidget {
       body: Container(
           child: Column(
             children: [
-            Text('Dracula (1931) (PG)'),
-            Text('The dashing, mysterious Count Dracula (Bela Lugosi) travels to London and takes up residence in an old castle. Soon he begins to wreak havoc, sucking the blood of young women and turning them into vampires. Van Helsing is enlisted to put a stop to the count and his reign of terror.'),
+            Text("Dracula (1931) (PG)"), 
+            Text('Southsea Cinema Room'),
+            Text('Thursday 22 OCt 2026, 18:00 - ends at 19:14'),
+            Text('Please note that Discounts/Membership Benefits will be applied once you have selected your tickets'),
+            Text('Select Quantities (Up to 5 in total)'),
           ],
         ),
       ),
