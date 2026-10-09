@@ -12,7 +12,6 @@ class HomeView extends StatelessWidget {
         title: const Text(
           appTitle,
           style: cinemaHeaderStyle,
-          fontWeight: FontWeight.normal,
         ),
         backgroundColor: cinemaSurface,
         iconTheme: const IconThemeData(color: cinemaBrand),
@@ -30,8 +29,8 @@ class HomeView extends StatelessWidget {
                 style: TextStyle(
                   color: cinemaFontWhite,
                   fontSize: 22,
+                  fontWeight: FontWeight.bold,
                 ),
-                fontWeight: FontWeight.bold,
               ),
             ],
           ),
