@@ -14,9 +14,9 @@ class MovieRepository {
         imagePath: 'assets/images/lion_king.jpeg',
       ),
       Movie(
-        id: 'mi_fallout',
+        id: 'mission',
         title: 'Mission Impossible: Fallout',
-        synopsis: 'Set two years after the events of Rogue Nation, Fallout follows Impossible Missions Force agent Ethan Hunt (Cruise) and his team in their efforts to prevent a nuclear attack by terrorist Solomon Lane (Harris) and the mysterious extremist John Lark.',
+        synopsis: 'This is a film about Tom Cruise running.',
         ageRating: '12',
         runtime: '147 minutes',
         screeningTime: "19:00",
@@ -24,5 +24,14 @@ class MovieRepository {
         imagePath: 'assets/images/mi_fallout.jpg',
       ),
     ];
+}
+  
+  Movie? getMovieById(String id) {
+    for (final movie in getMovies()) {
+      if (movie.id == id) {
+        return movie;
+      }
+    }
+    return null;
   }
 }
