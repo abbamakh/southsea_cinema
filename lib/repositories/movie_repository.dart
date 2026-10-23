@@ -6,7 +6,7 @@ class MovieRepository {
       Movie(
         id: 'lion',
         title: 'The Lion King',
-        synopsis: 'The story follows a young lion prince named Simba, who is exiled from his kingdom after his father Mufasa is murdered by his uncle Scar to seize the throne. As he grows up, Simba must decide whether to return home to confront Scar and reclaim his place as king.',
+        synopsis: 'This is a film about talking animals',
         ageRating: 'U',
         runtime: '88 minutes',
         screeningTime: "14:00",
