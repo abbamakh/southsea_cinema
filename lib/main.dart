@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:southsea_cinema/constants.dart';
-import 'package:southsea_cinema/views/home_view.dart';
+//import 'package:southsea_cinema/views/home_view.dart';
 import 'package:southsea_cinema/views/movie_listing.dart';
-import 'package:southsea_cinema/views/menu_screen.dart';
+//import 'package:southsea_cinema/views/menu_screen.dart';
 
 void main() {
   runApp(const SouthseaCinemaApp());
@@ -15,7 +15,7 @@ class SouthseaCinemaApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Southsea Cinema & Arts Centre',
-      home: MenuScreen(),
+      home: MovieListing(),
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: cinemaBackground,
